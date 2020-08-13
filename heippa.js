@@ -10,3 +10,5 @@ toka = 20;
 summa = eka + toka;
 alert(summa);
 
+
+
