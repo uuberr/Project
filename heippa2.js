@@ -32,6 +32,20 @@ summa2 = summa * kerro * kerro2;
 summa3 = summa2 * kerro2;
 alert(summa + ' päivää vanha ja ' + summa2 + ' minuuttia ja sekuntteina ' +  summa3);
 
+function laskeMinuutit()
+{
+    var min, tun, laske;
+    tun = document.getElementById('tunnit').value;
+    min = document.getElementById('minuutit').value;
+    tun = parseInt(tun);
+    min = parseInt(min);
+    laske = tun*60 + min;
+    document.getElementById('tulo').innerHTML = "Tähän mennessä minuutteja kulunut tässä päivässä:" + laske;
+
+}
+
+
+
 
 
 
